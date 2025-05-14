@@ -1,0 +1,33 @@
+.map-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map-overlay-datetime {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFFFFF;
+    background-color: rgba(30, 86, 160, 0.85);
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.datetime-time {
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+}
+
+.datetime-date {
+    font-size: 1.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+}
