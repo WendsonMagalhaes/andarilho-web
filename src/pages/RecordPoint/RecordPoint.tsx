@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import './RecordPoint.css';
 import MapaLocalizacao from '../../components/MapLocation/MapLocation';
 import Sidebar from '../../components/Sidebar/Sidebar'
@@ -31,8 +30,7 @@ const RecordPoint: React.FC = () => {
     const [endereco, setEndereco] = useState<string>('');
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>('');
-    const [registros, setRegistros] = useState<any[]>([]);
-    const navigate = useNavigate();
+    const [_registros, setRegistros] = useState<any[]>([]);
 
     const [marcacoes, setMarcacoes] = useState({
         entrada: '--:--',

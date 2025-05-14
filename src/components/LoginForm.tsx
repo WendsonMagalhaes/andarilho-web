@@ -28,7 +28,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess, onLoginFailure })
 
         // Lógica para enviar a solicitação de login para o backend
         try {
-            const response = await fetch('https://andarilho-production.up.railway.app/login', {
+            const response = await fetch('https://andarilho-production.up.railway.app/usuarios/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

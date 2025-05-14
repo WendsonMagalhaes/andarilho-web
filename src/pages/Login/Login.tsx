@@ -39,7 +39,7 @@ const Login: React.FC = () => {
         navigate('/dashboard');  // Redirecionar para o dashboard após login
     };
 
-    const handleLoginFailure = (error: string) => {
+    const handleLoginFailure = (_error: string) => {
     };
 
     return (
