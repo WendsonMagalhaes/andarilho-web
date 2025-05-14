@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
 
 interface LoginFormProps {
     onLoginSuccess: (dados: {
